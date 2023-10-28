@@ -1,0 +1,24 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:27816",
+      "sslPort": 44353
+    }
+  },
+  "profiles": {
+    "FilmesApi": {
+      "applicationUrl": "https://localhost:7058;http://localhost:5013",
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "launchBrowser": false,
+      "launchUrl": "swagger"
+    },
+    
+  }
+}
